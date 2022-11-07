@@ -45,4 +45,29 @@ a {
 
 ul {
   list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+
+.header,.links{
+  display:flex;
+  padding:10px;
+  
+}
+.header
+{
+  gap:10px;
+}
+.links
+{
+  gap:10px;
+  align-items: center;
+}
+.movable
+{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  margin-left:auto;
 }
